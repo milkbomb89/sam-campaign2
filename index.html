@@ -22,5 +22,23 @@
             <img src="./삼천리 로고_배경없음.png" alt="">
         </div>
 
+        <script src="./confetti.js"> 
+
+        </script>
+        <script>
+            const start = () =>{
+                setTimeout(function(){
+                    confetti.start();
+                },1000);
+            };
+            const stop = () =>{
+                setTimeout(function(){
+                    confetti.stop();
+                },5000);
+            }
+            start();
+            stop();
+        </script>
+
 </body>
 </html>
