@@ -1,40 +1,27 @@
 *{
-    box-sizing:border-box;
-    background-color: rgb(250,250 ,210)
+    box-sizing: border-box;
+
 }
 
+body{
+    background-color: black;
+    color: white;
+}
 
-.card{
-    display:flex;
+.img{
+    display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    margin-top: 2%;
-
-
- 
-}
-
-.image{
-    display: inline-block;
-    position:static
-    
-    
-}
-
-.hilight{
-    position: absolute;
-
+    justify-items: center;
+    margin-top: 5%;
 }
 
 .logo{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: flex-end;
-    align-items: center;    
     margin-top: 5%;
-
-
 }
 
 @media screen and (width< 600px) {
