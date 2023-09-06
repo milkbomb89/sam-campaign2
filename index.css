@@ -26,8 +26,9 @@ body{
 
 @media screen and (width<800px) {
     .img img{
-        width: 150px;
-        height: 215px;
+        width: 200px;
+        height: auto;
+        margin-top: 30%;
     }
 
     .logo img{
