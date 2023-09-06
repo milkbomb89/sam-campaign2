@@ -24,9 +24,9 @@ body{
     margin-top: 5%;
 }
 
-@media screen and (width<800px) {
+@media screen and (width<1000px) {
     .img img{
-        width: 200px;
+        width: 250px;
         height: auto;
         margin-top: 30%;
     }
